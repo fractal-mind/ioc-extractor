@@ -1,6 +1,5 @@
 from typing import Optional, Union
 import csv
-from icecream import ic
 import gzip
 import pdfplumber
 from bs4 import BeautifulSoup

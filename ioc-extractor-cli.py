@@ -5,7 +5,6 @@ import csv
 from parsers import fileparse
 import re
 import sys
-from icecream import ic
 
 
 # Extract text from files
