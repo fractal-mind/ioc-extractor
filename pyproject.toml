@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ioc-extractor"
+version = "0.1.0"
+description = "Matches patterns in HTML, PDF, and CSV files and organizes them by filename and type of IOC."
+authors = ["fractal-mind <29667605+fractal-mind@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ioc_extractor"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pdfplumber = "^0.10.3"
+typing = "^3.10.0.0"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
